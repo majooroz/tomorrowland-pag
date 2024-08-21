@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 st.title("😎 MI PRIMERA APP 😎")
 st.header("Aqui subire todo el contenido")
-st.write("Hola mi gente el dia de hoy hablaremos de carritos")
+st.write("Hola mi gente el dia de hoy hablaremos de Tomorrowlnad")
 image = Image.open("mclaren.jpg")
 st.image(image,caption = "mclaren")
 texto = st.text_input('Aviso parroquial',"Tienes 20 años y no has conseguido un carro deportivo, pues que lastima yo tampoco")
