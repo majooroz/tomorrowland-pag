@@ -8,7 +8,7 @@ st.markdown("""
     }
     .header {
         font-family: 'Courier New', Courier, monospace;
-        color: #D35400;
+        color: #FFFFFF;
     }
     .content {
         font-family: 'Verdana', sans-serif;
