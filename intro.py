@@ -25,7 +25,7 @@ st.markdown('<p class="content">Hola mi gente, el día de hoy hablaremos de Tomo
 
 image = Image.open("tomorrowland.jpg")
 st.image(image,caption = "tomorrowland")
-texto = st.text_input('Aviso parroquial',"Tienes 20 años y no has conseguido un carro deportivo, pues que lastima yo tampoco")
+texto = st.text_input("Tienes 20 años y no has conseguido tu boleta, pues que lastima yo tampoco")
 st.write("El texto escrito es", texto)
 
 st.subheader("Vamos a probar dos columnas")
@@ -40,17 +40,17 @@ with col1:
 
 with col2:
   st.subheader("Segunda columna")
-  modo = st.radio("Selecciona los festiavles a los que quisieras ir ", ("Ultra", "Renault","Ford"))
-  if modo == "Chevrolet":
+  modo = st.radio("Selecciona los festiavles a los que quisieras ir ", ("Ritvals", "After Life","La Solar"))
+  if modo == "Ritvals":
     st.write("Es una marca interesante")
-  if modo == "Renault":
+  if modo == "After Life":
     st.write("Es una marca francesa")
-  if modo == "Ford":
+  if modo == "La Solar":
     st.write("La marca mas vendida en los estados unidos")
 
 with st.sidebar:
-  st.subheader("Decidete de una vez 🛒")
+  st.subheader("Decidete de una vez 😎")
   mod_radio = st.radio(
-    "Escoge una marca", 
-    ("Chevrolet", "Renault","Ford")
+    "Escoge una festival", 
+    ("Ritvals", "After Life","La Solar")
   )
